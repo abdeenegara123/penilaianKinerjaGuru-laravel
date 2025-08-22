@@ -9,7 +9,7 @@
     <div class="main-content">
         <section class="section">
             <div class="section-header">
-                <h1>Data Jadwal</h1>
+                <h1>Data Jadwal Mengajar Guru</h1>
             </div>
 
             <div class="section-body">
@@ -35,7 +35,7 @@
                                                 <th>Tanggal</th>
                                                 <th>Jam Mulai</th>
                                                 <th>Jam Selesai</th>
-                                                <th>Keterangan</th>
+                                                <th>input Nilai</th>
 
                                                 <th>Action</th>
                                             </tr>

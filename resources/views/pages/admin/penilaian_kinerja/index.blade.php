@@ -30,7 +30,7 @@
     <div class="main-content">
         <section class="section">
             <div class="section-header">
-                <h1>Data Penilaian Kinerja</h1>
+                <h1>Data Laporan Kinerja Guru</h1>
             </div>
 
             <div class="section-body">
@@ -38,7 +38,7 @@
                     <div class="col-12">
                         <div class="card">
                             <div class="card-header">
-                                <h4>Daftar Penilaian Kinerja</h4>
+                                <h4>Daftar Laporan Kinerja Guru</h4>
                                 <div class="card-header-action">
                                     <a href="{{ route('penilaian_kinerja.create') }}" class="btn btn-primary">
                                         <i class="fas fa-plus"></i> Hitung KPI

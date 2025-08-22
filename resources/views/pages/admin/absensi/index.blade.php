@@ -94,19 +94,21 @@
         <script src="{{ asset('library/datatables.net-select-bs4/js/select.bootstrap4.min.js') }}"></script>
         <script src="{{ asset('js/page/modules-datatables.js') }}"></script>
 
-        <script type="text/javascript">
+         <script type="text/javascript">
             $(document).ready(function() {
-                $('#table-absensi').DataTable({
+                // Existing DataTable initialization
+                var language = {
+                    "sSearch": "Pencarian Data Kegiatan RPPH : ",
+                };
+                var tableKegiatan = $('#table-agenda').DataTable({
                     paging: true,
                     searching: true,
                     language: {
                         url: 'https://cdn.datatables.net/plug-ins/2.1.0/i18n/id.json',
                     },
-                    columnDefs: [
-                        { orderable: false, targets: [6] }, // Disable sorting for action column
-                        { searchable: false, targets: [0, 6] } // Disable searching for # and action columns
-                    ]
                 });
+
+
             });
         </script>
     @endpush

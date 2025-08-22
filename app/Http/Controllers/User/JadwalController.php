@@ -15,7 +15,7 @@ class JadwalController extends Controller
     private $menu = 'jadwal';
 
     public function index()
-    {
+{
         $menu = $this->menu;
         $datas = Jadwal::with(['user', 'mapel'])
             ->where('user_id', Auth::id())
